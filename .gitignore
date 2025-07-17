@@ -1,0 +1,77 @@
+# Unity folders to ignore
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Uu]nity[Cc]ache/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Crash and debug files
+sysinfo.txt
+mono_crash.*
+crashlytics-build.properties
+
+# Unity build artifacts
+*.apk
+*.aab
+*.app
+*.exe
+*.ipa
+*.unitypackage
+*.unitypackage.meta
+
+# Asset database
+*.pidb
+*.opendb
+*.booproj
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# Visual Studio / JetBrains Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.unityproj
+*.DotSettings.user
+
+# Gradle / Android Studio
+.gradle/
+*.svd
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Blender
+*.blend1
+*.blend1.meta
+
+# Unity auto-generated files (from Addressables or Visual Scripting)
+Assets/StreamingAssets/aa*
+Assets/AddressableAssetsData/link.xml*
+Assets/Addressables_Temp*
+Assets/AddressableAssetsData/*/*.bin*
+Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# External plugin settings (e.g., JetBrains)
+Assets/Plugins/Editor/JetBrains*
+
+# Unity test scenes or placeholder scenes (optional)
+InitTestScene*.unity*
+Assets/InitTestScene*.unity*
+
+# Your specific oversized file
+Assets/Stylized Lava PBR Texture/Textures/Lava_normal.png
+
+# Meta files should NOT be ignored if asset is tracked
+!*.meta
